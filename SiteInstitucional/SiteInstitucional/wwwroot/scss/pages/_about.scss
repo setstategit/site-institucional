@@ -1,0 +1,126 @@
+.about-styles {
+    .banner--page {
+        .container {
+            .title--full {
+                align-items: flex-start;
+                text-align: left;
+                gap: 0.5rem;
+
+                h1 {
+                    align-items: flex-start;
+                }
+
+                p {
+                    width: 60%;
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+
+    .content--about {
+        .container {
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: left;
+            gap: 2rem;
+            padding: 0 0 80px 0;
+
+            .text--half {
+                flex-basis: 45%;
+                flex: 1;
+
+                h3 {
+                    font-size: $size-title;
+                    color: $dark-gray;
+                }
+            }
+
+            img {
+                width: 50%;
+                flex-basis: 45%;
+                flex: 1;
+                border-radius: 16px 16px 40px 16px;
+            }
+
+            .highlight--img {
+                margin-top: -200px;
+            }
+
+            .text--full {
+                flex-basis: 100%;
+                // flex: 1;
+            }
+
+            .mvv--cards {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 2rem;
+
+                .mvv--card {
+                    display: flex;
+                    flex-direction: column;
+                    flex-basis: 30%;
+                    flex: 1;
+                    gap: 1rem;
+                    padding: 32px;
+                    border: 2px solid $light-gray;
+                    border-radius: 32px;
+
+                    .mvv--header {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        img {
+                            max-width: 32px;
+                        }
+
+                        h4 {
+                            font-size: 20px;
+                            color: $dark-gray;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+    }
+
+    @media only screen and (max-width: 960px) {
+    }
+
+    @media only screen and (max-width: 768px) {
+        .banner--page {
+            .container {
+                .title--full {
+                    p {
+                        width: 100%;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        .content--about {
+            .container {
+                padding: 40px;
+
+                .text--half {
+                    flex-basis: 100%;
+                }
+
+                .highlight--img {
+                    margin-top: 0;
+                    order: -1;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+    }
+}

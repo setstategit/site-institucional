@@ -1,0 +1,78 @@
+.job-styles {
+    .job--container {
+        .container {
+            flex-direction: row;
+            align-items: flex-start;
+            text-align: left;
+            padding: 32px 0 80px;
+
+            .job--form {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                // flex: 1;
+
+                h3 {
+                    color: $dark-blue;
+                    font-size: $size-subtitle;
+                }
+
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+
+                    input {
+                        flex: 1;
+                        min-width: 100%;
+                    }
+
+                    input[type='file'] {
+                        padding: 12px 8px 12px 8px;
+
+                        &::file-selector-button {
+                            background-color: $light-gray;
+                            padding: 8px;
+                            border-radius: 8px;
+                            border: none;
+                            font-family: inherit;
+                            font-size: 12px;
+                            font-weight: 400px;
+                            color: $gray;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+
+            .job--info {
+                display: flex;
+                flex: 2;
+                flex-direction: column;
+                gap: 1rem;
+
+                h4 {
+                    color: $dark-blue;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+    }
+
+    @media only screen and (max-width: 960px) {
+    }
+
+    @media only screen and (max-width: 768px) {
+        .job--container {
+            .container {
+                padding: 32px;
+                flex-direction: column;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+    }
+}

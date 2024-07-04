@@ -1,0 +1,95 @@
+.btn--hero,
+.btn--hero-medium,
+.btn--hero-outline,
+.btn--hero-outline-light {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	width: fit-content;
+	background: $blue-10;
+	padding: 1.25rem 2.5rem;
+	border-radius: 0.5rem;
+	color: #fff;
+	font-size: 20px;
+	font-weight: $font-semibold;
+	border: 2px solid transparent;
+
+	img {
+		width: 20px;
+		display: flex;
+		position: relative;
+		margin-left: -40px;
+		opacity: 0;
+		transition: 0.4s;
+		// transform: translateX(-40px);
+	}
+
+	&:hover {
+		background: $dark-blue;
+		border-radius: 0.5rem 0.5rem 1.5rem 0.5rem;
+
+		border: 2px solid $blue;
+		box-shadow: 0px 8px 80px $shadow-blue;
+
+		img {
+			margin-left: 0px;
+			opacity: 1;
+		}
+	}
+}
+
+.btn--hero-medium {
+	font-size: $size-text;
+	font-weight: $font-semibold;
+
+	img {
+		margin-left: -32px;
+	}
+}
+
+.btn--hero-outline {
+	font-size: $size-text;
+	font-weight: $font-semibold;
+	color: $gray;
+	border: 2px solid $gray;
+	background: transparent;
+	font-weight: $font-light;
+
+	img {
+		margin-left: -32px;
+	}
+
+	&:hover {
+		background: transparent;
+		border: 2px solid $blue;
+
+		img {
+			filter: $filter-blue;
+		}
+	}
+}
+
+.btn--hero-outline-light {
+	padding: 16px 32px;
+	border-radius: 16px;
+	border: 2px solid $blue;
+	color: #fff;
+	font-weight: $font-medium;
+	background: transparent;
+	font-size: $size-small;
+
+	img {
+		margin-left: -32px;
+		width: 16px !important;
+	}
+
+	&:hover {
+		background: transparent;
+		border: 2px solid $blue;
+
+		img {
+			filter: $filter-blue;
+		}
+	}
+}

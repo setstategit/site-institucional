@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 1.2px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-width: 1.2px;
+      }
+
+      .cls-3 {
+        stroke-width: 1.2px;
+      }
+
+      .cls-4 {
+        stroke-width: 1.2px;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_de_máscara_42" data-name="Grupo de máscara 42">
+    <g id="Preview">
+      <g id="Grupo_169" data-name="Grupo 169">
+        <g id="Grupo_168" data-name="Grupo 168">
+          <g id="Grupo_167" data-name="Grupo 167">
+            <circle id="Elipse_20" data-name="Elipse 20" class="cls-4" cx="24" cy="33.6" r="1.2"/>
+            <line id="Linha_28" data-name="Linha 28" class="cls-2" x1="24" y1="38.2" x2="24" y2="34.8"/>
+          </g>
+          <rect id="Retângulo_72" data-name="Retângulo 72" class="cls-2" x="15.8" y="27.8" width="16.3" height="13.8" rx="2" ry="2"/>
+          <path id="Caminho_247" data-name="Caminho 247" class="cls-2" d="M19.4,27.8v-3.1c-.1-2.5,1.9-4.7,4.4-4.8,2.5-.1,4.7,1.9,4.8,4.4,0,.1,0,.3,0,.4v3.1"/>
+        </g>
+        <path id="Caminho_248" data-name="Caminho 248" class="cls-2" d="M10.7,35.5H2.5c-1.1,0-1.9-.9-1.9-1.9,0,0,0,0,0,0V8.3c0-1.1.9-1.9,1.9-1.9,0,0,0,0,0,0h42.9c1.1,0,1.9.9,1.9,1.9h0v25.3c0,1.1-.9,1.9-1.9,1.9h-9.3"/>
+        <line id="Linha_29" data-name="Linha 29" class="cls-2" x1="3.8" y1="13.6" x2="43.3" y2="13.6"/>
+        <circle id="Elipse_21" data-name="Elipse 21" class="cls-1" cx="6.3" cy="9.8" r="1"/>
+        <circle id="Elipse_22" data-name="Elipse 22" class="cls-1" cx="10.9" cy="9.8" r="1"/>
+        <circle id="Elipse_23" data-name="Elipse 23" class="cls-3" cx="15.5" cy="9.8" r="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

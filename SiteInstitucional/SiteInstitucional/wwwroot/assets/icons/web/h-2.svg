@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .8px;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_de_máscara_25" data-name="Grupo de máscara 25">
+    <g id="Layer_1" data-name="Layer 1">
+      <g id="Grupo_122" data-name="Grupo 122">
+        <g id="Grupo_120" data-name="Grupo 120">
+          <path id="Caminho_120" data-name="Caminho 120" class="cls-1" d="M19.7,19.3v9.1c0,.4-.3.8-.7.8H1.7c-.4,0-.7-.4-.7-.8V3.6c0-.4.3-.8.7-.8h17.3c.4,0,.7.4.7.8v6.6"/>
+          <g id="Grupo_118" data-name="Grupo 118">
+            <path id="Caminho_121" data-name="Caminho 121" class="cls-1" d="M13.2,8.5l1,1.2,1.4-2.2"/>
+            <line id="Linha_6" data-name="Linha 6" class="cls-1" x1="4.5" y1="8.7" x2="10" y2="8.7"/>
+          </g>
+          <g id="Grupo_119" data-name="Grupo 119">
+            <line id="Linha_7" data-name="Linha 7" class="cls-1" x1="4.5" y1="16.4" x2="10" y2="16.4"/>
+            <path id="Caminho_122" data-name="Caminho 122" class="cls-1" d="M13.2,16.3l1,1.2,1.4-2.2"/>
+          </g>
+          <line id="Linha_8" data-name="Linha 8" class="cls-1" x1="4.5" y1="23.8" x2="10" y2="23.8"/>
+          <rect id="Retângulo_62" data-name="Retângulo 62" class="cls-1" x="12.2" y="21.6" width="4.5" height="4.5"/>
+        </g>
+        <g id="Grupo_121" data-name="Grupo 121">
+          <path id="Caminho_123" data-name="Caminho 123" class="cls-1" d="M29.7,14.8c0-.3,0-.7,0-1l1.4-1.1c-.3-1-.9-1.9-1.6-2.7l-1.7.7c-.5-.4-1.1-.8-1.8-1l-.3-1.8c-1-.2-2.1-.2-3.1,0l-.3,1.8c-.7.2-1.3.6-1.8,1l-1.7-.6c-.7.8-1.3,1.7-1.6,2.7l1.4,1.1c0,.3,0,.7,0,1,0,.3,0,.7,0,1l-1.4,1.1c.3,1,.9,1.9,1.6,2.7l1.7-.7c.5.4,1.1.8,1.8,1l.3,1.8c1,.2,2.1.2,3.1,0l.3-1.8c.7-.2,1.3-.6,1.8-1l1.7.7c.7-.8,1.3-1.7,1.6-2.7l-1.4-1.1c0-.3,0-.7,0-1h0Z"/>
+          <circle id="Elipse_6" data-name="Elipse 6" class="cls-1" cx="24.1" cy="14.8" r="3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

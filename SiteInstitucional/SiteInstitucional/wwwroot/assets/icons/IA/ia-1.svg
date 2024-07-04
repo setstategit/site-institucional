@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 207.21 190.68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <g id="Icons">
+    <g>
+      <path class="cls-1" d="M111.55,153.93H16.74c-7.59,0-13.74-6.15-13.74-13.74V16.74c0-7.59,6.15-13.74,13.74-13.74h160.7c7.59,0,13.74,6.15,13.74,13.74v107.83"/>
+      <line class="cls-1" x1="191.17" y1="32.4" x2="3" y2="32.4"/>
+      <g>
+        <line class="cls-1" x1="18.68" y1="18.68" x2="20.64" y2="18.68"/>
+        <line class="cls-1" x1="36.32" y1="18.68" x2="38.28" y2="18.68"/>
+        <line class="cls-1" x1="53.96" y1="18.68" x2="55.92" y2="18.68"/>
+      </g>
+      <g>
+        <line class="cls-1" x1="139.96" y1="136.23" x2="149.4" y2="146.81"/>
+        <line class="cls-1" x1="164.51" y1="127.55" x2="149.4" y2="146.81"/>
+      </g>
+      <polyline class="cls-1" points="32.79 73.41 52.25 126.24 60.73 82.79 73.11 111.64 81.45 86.62 93.97 129.02 100.22 49.08 123.86 87.31 160.7 66.46"/>
+      <g>
+        <line class="cls-1" x1="161.4" y1="65.76" x2="157.92" y2="78.97"/>
+        <line class="cls-1" x1="148.89" y1="63.68" x2="161.4" y2="65.76"/>
+      </g>
+      <g>
+        <circle class="cls-1" cx="151.58" cy="135.43" r="28.1"/>
+        <path class="cls-1" d="M182.55,154.77h13.65v29.46c0,3.69-2.99,6.68-6.68,6.68h-.29c-3.69,0-6.68-2.99-6.68-6.68v-29.46h0Z" transform="translate(-66.75 184.53) rotate(-45)"/>
+        <line class="cls-1" x1="174.05" y1="162.61" x2="168.95" y2="157.51"/>
+        <line class="cls-1" x1="179.16" y1="157.51" x2="174.01" y2="152.35"/>
+      </g>
+    </g>
+  </g>
+</svg>

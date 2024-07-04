@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .8px;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_de_máscara_26" data-name="Grupo de máscara 26">
+    <g id="Layer_1" data-name="Layer 1">
+      <g id="Grupo_124" data-name="Grupo 124">
+        <g id="Grupo_123" data-name="Grupo 123">
+          <circle id="Elipse_7" data-name="Elipse 7" class="cls-1" cx="16.3" cy="25.5" r="3"/>
+          <path id="Caminho_124" data-name="Caminho 124" class="cls-1" d="M28,14.7h.5l2.6,2.6-2.6,2.6h-6.8s2.6-2.6,2.6-2.6l-2.6-2.6h2.9"/>
+          <path id="Caminho_125" data-name="Caminho 125" class="cls-1" d="M6.9,14.7h.7l2.6,2.6-2.6,2.6H.8s2.6-2.6,2.6-2.6l-2.6-2.6h3.3"/>
+          <path id="Caminho_126" data-name="Caminho 126" class="cls-1" d="M14.9,19.9h-3.6s2.6-2.6,2.6-2.6l-2.6-2.6h6.8l2.6,2.6-2.6,2.6h-.5"/>
+          <line id="Linha_9" data-name="Linha 9" class="cls-1" x1="16.3" y1="17.3" x2="16.3" y2="22.4"/>
+          <line id="Linha_10" data-name="Linha 10" class="cls-1" x1="26.5" y1="17.3" x2="26.5" y2="11.5"/>
+          <circle id="Elipse_8" data-name="Elipse 8" class="cls-1" cx="26.5" cy="6.8" r="4.7"/>
+          <line id="Linha_11" data-name="Linha 11" class="cls-1" x1="5.5" y1="17.3" x2="5.5" y2="9.8"/>
+          <circle id="Elipse_9" data-name="Elipse 9" class="cls-1" cx="5.5" cy="6.8" r="3"/>
+        </g>
+        <path id="Caminho_127" data-name="Caminho 127" class="cls-1" d="M24.1,6.3l2.1,2.9,3-4.1"/>
+      </g>
+    </g>
+  </g>
+</svg>

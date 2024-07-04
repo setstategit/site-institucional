@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 206.84 209.47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <g id="Icons">
+    <g>
+      <g>
+        <g>
+          <path class="cls-1" d="M88.81,148.31l34.79-1.64c2.71-.13,5.13-1.27,6.91-3.04,1.83-1.83,2.99-4.32,3.07-7.09.19-5.92-4.59-10.81-10.53-10.78l-20.78.09s-18.99-12.02-35.56-10.6c-12.1,1.03-29.77,18.06-38.37,27.12"/>
+          <path class="cls-1" d="M133.62,137.75l18.76-11.19,18.99-18.95c7.19-7.18,18.48-8.23,26.88-2.52l5.58,3.8-63.6,61.65c-4.15,3.88-9.6,6.05-15.28,6.06l-59.9,2.39"/>
+        </g>
+        <path class="cls-1" d="M56.32,206.47l14.29-14.26c2.12-2.12,2.12-5.55,0-7.66l-45.65-45.55c-2.12-2.12-5.56-2.12-7.68,0l-14.29,14.26,53.32,53.22Z"/>
+      </g>
+      <g>
+        <g>
+          <ellipse class="cls-1" cx="71.55" cy="35.68" rx="12.34" ry="12.35" transform="translate(-4.31 60.93) rotate(-44.91)"/>
+          <ellipse class="cls-1" cx="170.79" cy="35.68" rx="12.35" ry="12.34" transform="translate(24.8 131.24) rotate(-45.01)"/>
+        </g>
+        <ellipse class="cls-1" cx="120.36" cy="15.34" rx="12.35" ry="12.34" transform="translate(-.03 .26) rotate(-.12)"/>
+        <line class="cls-1" x1="120.36" y1="27.68" x2="120.36" y2="100.62"/>
+        <polyline class="cls-1" points="98.72 100.62 98.72 62.9 80.28 44.42"/>
+        <line class="cls-1" x1="77.08" y1="100.26" x2="77.08" y2="77.94"/>
+        <polyline class="cls-1" points="141.99 100.62 141.99 62.9 162.06 44.42"/>
+        <line class="cls-1" x1="163.63" y1="100.26" x2="163.63" y2="77.94"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,228 @@
+.title--full {
+	display: flex;
+	gap: 2rem;
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	h1 {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-size: $size-big;
+		line-height: 80px;
+
+		&::before {
+			content: '';
+			position: relative;
+			top: -16px;
+			display: flex;
+			justify-content: center;
+			width: 16px;
+			height: 16px;
+			border-radius: 2px 2px 8px 2px;
+			background-color: $blue;
+		}
+	}
+
+	p {
+		font-size: 20px;
+		line-height: 40px;
+		color: $light-blue;
+	}
+}
+
+.title--center {
+	position: relative;
+	display: flex;
+	gap: 1rem;
+	width: 720px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	h2 {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: $dark-gray;
+		font-size: $size-title;
+		line-height: 80px;
+
+		&::before {
+			content: '';
+			position: relative;
+			top: -16px;
+			display: flex;
+			justify-content: center;
+			width: 16px;
+			height: 16px;
+			border-radius: 2px 2px 8px 2px;
+			background-color: $blue;
+		}
+	}
+
+	p {
+		font-size: $size-subtitle;
+		line-height: 32px;
+		color: $gray;
+	}
+}
+
+.title--horizontal {
+	position: relative;
+	display: flex;
+	gap: 4rem;
+
+	// justify-content: center;
+	align-items: center;
+	text-align: left;
+
+	h2 {
+		width: 50%;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		color: $dark-gray;
+		font-size: $size-title;
+		line-height: 48px;
+
+		&::before {
+			content: '';
+			position: relative;
+			top: -16px;
+			display: flex;
+			justify-content: center;
+			width: 16px;
+			height: 16px;
+			border-radius: 2px 2px 8px 2px;
+			background-color: $blue;
+		}
+	}
+
+	p {
+		font-size: 20px;
+		line-height: 32px;
+		color: $gray;
+	}
+}
+
+.title--simple {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	color: $dark-gray;
+	font-size: $size-title;
+	line-height: 80px;
+
+	&::before {
+		content: '';
+		position: relative;
+		top: -16px;
+		display: flex;
+		justify-content: center;
+		width: 16px;
+		height: 16px;
+		border-radius: 2px 2px 8px 2px;
+		background-color: $blue;
+	}
+}
+
+.tittle--banner-page {
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+
+	h1 {
+		font-size: $size-big;
+		line-height: $size-big;
+		font-weight: $font-bold;
+	}
+
+	span {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		color: $blue;
+
+		&::before {
+			content: '';
+			position: relative;
+			top: 0px;
+			left: 0px;
+			display: flex;
+			justify-content: center;
+			width: 16px;
+			height: 16px;
+			border-radius: 2px 2px 8px 2px;
+			background-color: $blue;
+		}
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 960px) {
+}
+
+@media only screen and (max-width: 768px) {
+	.title--full {
+		gap: 1rem;
+
+		h1 {
+			font-size: 32px;
+			line-height: 48px;
+		}
+		p {
+			font-size: 16px;
+			line-height: 32px;
+		}
+	}
+
+	.title--center,
+	.title--horizontal,
+	.title--simple {
+		max-width: 100%;
+		gap: 0.5rem;
+
+		h2 {
+			font-size: $responsive-size-title;
+			line-height: 40px;
+		}
+
+		p {
+			font-size: $responsive-size-subtitle;
+		}
+	}
+
+	.title--horizontal {
+		flex-direction: column;
+
+		h2 {
+			width: 100%;
+		}
+	}
+
+	.title--simple {
+		font-size: $responsive-size-title;
+		line-height: 40px;
+	}
+
+	.tittle--banner-page {
+		span {
+			font-size: $responsive-size-subtitle;
+		}
+		h1 {
+			font-size: $responsive-size-title;
+			line-height: $responsive-size-big;
+		}
+	}
+}
+@media only screen and (max-width: 480px) {
+}

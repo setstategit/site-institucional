@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178 99.75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g id="_Ñëîé_1" data-name="Ñëîé 1">
+    <g>
+      <path class="cls-1" d="M126,12h45c2.76,0,5,2.24,5,5v75.75c0,2.76-2.24,5-5,5h-39"/>
+      <polyline class="cls-1" points="132 81.75 168 81.75 168 20 126 20"/>
+      <line class="cls-1" x1="140" y1="89.75" x2="150" y2="89.75"/>
+      <g>
+        <rect class="cls-1" x="89.64" y="39.5" width="34.36" height="58" rx="5" ry="5"/>
+        <line class="cls-1" x1="124" y1="49.5" x2="90" y2="49.5"/>
+        <line class="cls-1" x1="124" y1="87.5" x2="90" y2="87.5"/>
+      </g>
+      <g>
+        <g>
+          <polyline class="cls-1" points="51 79.5 47 97.5 73 97.5 69 79.5"/>
+          <line class="cls-1" x1="39" y1="97.5" x2="81" y2="97.5"/>
+        </g>
+        <path class="cls-1" d="M118,31.5V7c0-2.76-2.24-5-5-5H7c-2.76,0-5,2.24-5,5v67.5c0,2.76,2.24,5,6,5h74"/>
+        <line class="cls-1" x1="82" y1="67.5" x2="4" y2="67.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

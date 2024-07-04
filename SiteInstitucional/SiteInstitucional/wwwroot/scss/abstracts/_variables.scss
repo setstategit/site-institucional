@@ -1,0 +1,55 @@
+// colors
+$blue: #59c5be;
+$blue-10: #2aa29c;
+$blue-50: #00556b;
+$light-blue: #9be9e4;
+$light-blue2: #d9f2f1;
+$dark-blue: #021c3e;
+
+$green: #76cb61;
+$dark-green: #022c3e;
+
+$yellow: #ef9e4d;
+$orange: #ffd70b;
+
+$gray: #848688;
+$light-gray: #f1f1f1;
+$dark-gray: #4b4b4d;
+
+// Gradiente
+$gradient-dark: -40deg, $dark-blue, $dark-green;
+$gradient-light: 40deg, $blue, #d9f2f1;
+
+// Shadow colors
+$shadow-blue: rgba(89, 197, 190, 0.25);
+$shadow-black: rgba(0, 0, 0, 0.25);
+
+// Filter SVG color
+$filter-blue: brightness(0) saturate(100%) invert(75%) sepia(8%) saturate(2092%)
+	hue-rotate(127deg) brightness(92%) contrast(91%);
+$filter-green: brightness(0) saturate(100%) invert(64%) sepia(59%)
+	saturate(356%) hue-rotate(62deg) brightness(97%) contrast(95%);
+$filter-orange: brightness(0) saturate(100%) invert(68%) sepia(21%)
+	saturate(1145%) hue-rotate(347deg) brightness(95%) contrast(97%);
+$filter-yellow: brightness(0) saturate(100%) invert(80%) sepia(81%)
+	saturate(1140%) hue-rotate(345deg) brightness(99%) contrast(104%);
+
+// Fonts
+$text-font: 'Poppins', sans-serif;
+$font-light: 300;
+$font-medium: 400;
+$font-semibold: 600;
+$font-bold: 800;
+
+$size-big: 60px;
+$size-title: 48px;
+$size-subtitle: 20px;
+$size-text: 16px;
+$size-small: 14px;
+
+// Responsive mobile
+$responsive-size-big: 52px;
+$responsive-size-title: 32px;
+$responsive-size-subtitle: 14px;
+$responsive-size-text: 16px;
+$responsive-size-small: 14px;

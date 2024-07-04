@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_de_máscara_18" data-name="Grupo de máscara 18">
+    <g id="_TEMP_SVG" data-name="  TEMP  SVG">
+      <g id="Grupo_90" data-name="Grupo 90">
+        <path id="Caminho_107" data-name="Caminho 107" class="cls-1" d="M22,2c1.1,0,2,.9,2,2v24c0,1.1-.9,2-2,2h-12c-1.1,0-2-.9-2-2V4c0-1.1.9-2,2-2h12ZM10,0C7.8,0,6,1.8,6,4v24c0,2.2,1.8,4,4,4h12c2.2,0,4-1.8,4-4V4C26,1.8,24.2,0,22,0h-12Z"/>
+        <path id="Caminho_108" data-name="Caminho 108" class="cls-1" d="M16,28c1.1,0,2-.9,2-2s-.9-2-2-2-2,.9-2,2,.9,2,2,2Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,128 @@
+footer {
+	background: linear-gradient($gradient-dark);
+	border-radius: 40px 40px 0px 0px;
+	padding: 32px 0px 8px 0;
+
+	.container {
+		padding: 0;
+	}
+
+	.footer--container {
+		display: flex;
+		flex-direction: row;
+		gap: 4rem;
+		justify-content: space-between;
+		text-align: left;
+
+		.footer--logo {
+			width: 40%;
+
+			img {
+				width: 260px;
+			}
+
+			p {
+				font-size: $size-small;
+				color: $light-blue;
+			}
+		}
+
+		.footer--menu {
+			margin-top: 32px;
+			display: flex;
+			flex-direction: column;
+			gap: 0.5rem;
+
+			h4 {
+				font-size: 20px;
+				color: $blue;
+			}
+
+			ul {
+				display: flex;
+				flex-direction: column;
+				gap: 0.5rem;
+
+				li {
+					display: flex;
+					gap: 8px;
+					align-items: center;
+
+					a {
+						font-size: $size-small;
+						color: #fff;
+						transition: 0.4s;
+						&:hover {
+							color: $blue;
+						}
+					}
+					img {
+						width: 24px;
+						filter: $filter-blue;
+					}
+				}
+			}
+		}
+	}
+
+	.footer--copyright {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 1px;
+			background-color: rgba(0, 0, 0, 0.25);
+			top: -16px;
+		}
+		p {
+			font-size: $size-small;
+			color: $blue;
+		}
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 960px) {
+}
+@media only screen and (max-width: 768px) {
+	footer {
+		padding: 32px;
+		border-radius: 16px 16px 0px 0px;
+
+		.container {
+			.footer--container {
+				gap: 1rem;
+				// flex-direction: column;
+				flex-wrap: wrap;
+
+				.footer--logo {
+					width: 100%;
+				}
+
+				.footer--menu {
+					width: 35%;
+					min-width: fit-content;
+				}
+			}
+
+			.footer--copyright {
+				&::before {
+					top: -8px;
+				}
+
+				p {
+					font-size: $responsive-size-small;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 480px) {
+}

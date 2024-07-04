@@ -1,0 +1,19 @@
+@import './helpers/reset';
+@import './abstracts/variables';
+
+// pages
+@import './pages/home';
+@import './pages/services';
+@import './pages/contact';
+@import './pages/about';
+@import './pages/oportunities';
+@import './pages/job';
+
+// components
+@import './components/btn';
+@import './components/banners';
+@import './components/title';
+@import './components/container';
+@import './components/navmenu';
+@import './components/tabmenu';
+@import './components/footer';
