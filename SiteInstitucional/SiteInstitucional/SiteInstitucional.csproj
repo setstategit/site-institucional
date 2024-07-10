@@ -6,4 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\css\" />
+  </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="sass wwwroot/scss/main.scss:wwwroot/css/main.css --style compressed --load-path=wwwroot/scss --update" />
+  </Target>
+
 </Project>

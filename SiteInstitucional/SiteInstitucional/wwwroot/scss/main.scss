@@ -1,19 +1,22 @@
-@import './helpers/reset';
-@import './abstracts/variables';
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@import './helpers/_reset.scss';
+@import './abstracts/_variables.scss';
 
 // pages
-@import './pages/home';
-@import './pages/services';
-@import './pages/contact';
-@import './pages/about';
-@import './pages/oportunities';
-@import './pages/job';
+@import './pages/_home.scss';
+@import './pages/_services.scss';
+@import './pages/_about.scss';
+@import './pages/_contact.scss';
+@import './pages/_job.scss';
+@import './pages/_oportunities.scss';
 
 // components
-@import './components/btn';
-@import './components/banners';
-@import './components/title';
-@import './components/container';
-@import './components/navmenu';
-@import './components/tabmenu';
-@import './components/footer';
+@import './components/_banners.scss';
+@import './components/_btn.scss';
+@import './components/_container.scss';
+@import './components/_footer.scss';
+@import './components/_navmenu.scss';
+@import './components/_tabmenu.scss';
+@import './components/_title.scss';
+
