@@ -3,6 +3,15 @@
         background: linear-gradient(130deg, #fff, $light-gray);
     }
 
+
+    #blip-partner {
+        background: linear-gradient(130deg, $blip-blue, $blip-dark);
+
+        .blip-logo {
+            width: 60%;
+        }
+    }
+
     .service--cards {
         display: flex;
         flex-wrap: wrap;
@@ -193,8 +202,8 @@
                 img {
                     border-radius: 16px;
                     background-color: $light-gray;
-                    max-width:200px;
-                    padding:5px;
+                    max-width: 200px;
+                    padding: 5px;
                 }
             }
         }
